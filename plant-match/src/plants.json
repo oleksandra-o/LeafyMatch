@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "name": "Diffenbachia",
+        "image": "/images/Diffen.jpg",
+        "description": "Brighten up your space with Diffenbachia, featuring striking leaves that demand attention. Ideal for those looking to add a vivid touch to their indoor jungle.",
+        "price": 32.99,
+        "light": "low",
+        "watering": "moderate",
+        "humidity": "high",
+        "fertilizer": "monthly"
+    },
+    {
+        "id": 2,
+        "name": "Dracaena",
+        "image": "/images/Dracena.jpg",
+        "description": "Dracaena's dramatic silhouette and purifying properties make it a must-have for any modern home. It's as resilient as it is stylish.",
+        "price": 38,
+        "light": "medium",
+        "watering": "low",
+        "humidity": "medium",
+        "fertilizer": "quarterly"
+    },
+    {
+        "id": 3,
+        "name": "Fiddlehead Fern",
+        "image": "/images/Fiddlehead.jpg",
+        "description": "Dive into the world of ferns with the elegant Fiddlehead, known for its lush, green fronds that unfurl in the most enchanting way.",
+        "price": 42,
+        "light": "high",
+        "watering": "high",
+        "humidity": "high",
+        "fertilizer": "bi-weekly"
+    },
+    {
+        "id": 4,
+        "name": "Neon Pothos",
+        "image": "/images/NeonPothos.jpg",
+        "description": "Illuminate your room with the Neon Pothos, its neon-green leaves glowing with vitality. A hassle-free plant that keeps on giving.",
+        "price": 32.99,
+        "light": "low",
+        "watering": "high",
+        "humidity": "low",
+        "fertilizer": "monthly"
+    },
+    {
+        "id": 5,
+        "name": "N'Joy Pothos",
+        "image": "/images/NjoyPothos.jpg",
+        "description": "N'Joy Pothos brings joy with its striking variegated leaves, making a statement in any space. Low maintenance yet utterly captivating.",
+        "price": 18.99,
+        "light": "medium",
+        "watering": "moderate",
+        "humidity": "medium",
+        "fertilizer": "semi-annually"
+    },
+    {
+        "id": 6,
+        "name": "Norfolk Island Pine",
+        "image": "/images/Norfolk.jpg",
+        "description": "Not just for Christmas, the Norfolk Island Pine is a year-round delight with its soft, evergreen foliage and symmetrical shape.",
+        "price": 12.99,
+        "light": "high",
+        "watering": "low",
+        "humidity": "medium",
+        "fertilizer": "monthly"
+    },
+    {
+        "id": 7,
+        "name": "Pothos",
+        "image": "/images/Pothos.jpg",
+        "description": "Pothos, the ultimate beginner's plant, thrives in neglect and rewards you with vigorous growth and air-purifying qualities.",
+        "price": 15.99,
+        "light": "low",
+        "watering": "moderate",
+        "humidity": "high",
+        "fertilizer": "monthly"
+    },
+    {
+        "id": 8,
+        "name": "Philodendron",
+        "image": "/images/Philo.jpg",
+        "description": "Philodendron's heart-shaped leaves symbolize love and care, making it the perfect green companion for your home or office.",
+        "price": 28.99,
+        "light": "medium",
+        "watering": "high",
+        "humidity": "low",
+        "fertilizer": "bi-monthly"
+    },
+    {
+        "id": 9,
+        "name": "Orchid",
+        "image": "/images/Orchid.jpg",
+        "description": "Exquisite Orchids bring a touch of elegance and sophistication. Their delicate blooms are a testament to beauty and grace.",
+        "price": 35,
+        "light": "high",
+        "watering": "moderate",
+        "humidity": "medium",
+        "fertilizer": "monthly"
+    },
+    {
+        "id": 10,
+        "name": "Spider Plant",
+        "image": "/images/Spider.jpg",
+        "description": "The Spider Plant, with its fast-growing shoots and charming white flowers, is a fun addition that can bring a bit of the outdoors inside.",
+        "price": 19.99,
+        "light": "medium",
+        "watering": "low",
+        "humidity": "high",
+        "fertilizer": "monthly"
+    },
+    {
+        "id": 11,
+        "name": "Snake Plant",
+        "image": "/images/Snake.jpg",
+        "description": "Tough and indestructible, the Snake Plant is the ultimate plant for those lacking a green thumb, improving air quality with its unique ability to convert CO2 to oxygen at night.",
+        "price": 29.99,
+        "light": "low",
+        "watering": "low",
+        "humidity": "low",
+        "fertilizer": "semi-annually"
+    },
+    {
+        "id": 12,
+        "name": "Cactus",
+        "image": "/images/Cactus.jpg",
+        "description": "The quintessential desert dweller, a Cactus brings resilience and beauty to any space, requiring minimal care but offering maximum impact.",
+        "price": 25,
+        "light": "high",
+        "watering": "low",
+        "humidity": "low",
+        "fertilizer": "annually"
+    }
+]
