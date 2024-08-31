@@ -1,0 +1,412 @@
+/* Custom Styles */
+
+
+body {
+    background-color: #f8fdfa; 
+  }
+  
+  header, .navbar {
+    background: linear-gradient(120deg, #daf5dc 0%, #e8f8ee 100%); 
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #333; 
+  }
+
+ .me-auto{
+  justify-content: center;
+ }
+  
+  .navbar-icons a {
+    color: #5c946e; 
+  }
+  
+  /* New Product Section */
+  #new-product h1, #new-product h2 {
+    color: #333; 
+  }
+  
+  #new-product p {
+    color: #666; 
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #d4efdf; 
+  }
+  
+  footer p {
+    color: #5c946e; 
+  }
+  
+  footer a {
+    color: #5c946e;
+    font-size: 24px; 
+  }
+  
+  footer a:hover{
+    color: #2f5a23; 
+    
+  }
+  /* Responsive Image */
+
+
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+  
+  /* Parallax Effect for Hero Section */
+  #hero {
+    background: url('../public/images/orchid-white.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.hero-heading {
+    font-size: 3rem;
+    color: white;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 5px 5px rgba(0,0,0,0.5);
+
+    transition: font-size 0.3s ease; 
+}
+
+#hero:hover .hero-heading {
+    font-size: 3.5rem; 
+}
+
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .navbar-icons {
+      position: static; 
+      margin-bottom: 1rem;
+    }
+    
+    .hero-heading {
+      font-size: 2rem; 
+    }
+  }
+
+
+  .section-icon {
+    font-size: 3rem; 
+    color: #4CAF50; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .section-heading {
+    font-size: 1rem; 
+    color: #4CAF50; 
+  }
+  
+  .section-link {
+    text-decoration: none; 
+    display: block; 
+    margin-bottom: 1rem; 
+  }
+  
+  .section-link:hover .section-icon {
+    transform: scale(1.1);
+  }
+  
+  /* responsive sizing */
+  @media (min-width: 768px) {
+    .section-icon {
+      font-size: 4rem; 
+    }
+  }
+  
+
+
+  /*sign in */
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto; 
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+  }
+
+.form-container {
+    margin: 20px;
+}
+
+.form-container h2 {
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 15px; 
+}
+
+.form-container input {
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+}
+
+.form-container button {
+    width: 100%; 
+    padding: 10px; 
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.form-container button:hover {
+    background-color: #218838; 
+}
+
+.form-container p {
+    text-align: center; 
+}
+
+.form-container span {
+    color: #2f5a23; 
+    cursor: pointer; 
+}
+
+/* Contact.js Popup Styles */
+.map-popup {
+  padding: 10px;
+  border-radius: 8px;
+  background: #d4efdf;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
+  text-align: center;
+}
+
+.map-popup h2 {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.map-popup p {
+  color: #666;
+  font-size: 14px;
+}
+
+.about{
+  padding-top: 65px;
+}
+.about-section {
+  margin-top: 10px;
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-item img {
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+
+.text-column {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.image-column {
+  flex: 0 0 66.66%;
+  max-width: 66.66%;
+}
+
+/* plant cards */
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+.card-title {
+  height: 3rem; 
+  overflow: hidden; 
+  margin-bottom: auto; 
+}
+
+.card-text {
+  flex-grow: 1; 
+  margin-bottom: 1rem; /* Space above the price */
+  overflow: hidden; 
+}
+
+.col-md-4 {
+  display: flex;
+}
+
+.col-md-4 .card {
+  flex-grow: 1;
+}
+
+.btn-add-to-cart {
+  background-color: #459356; 
+  color: #ffffff; 
+  text-shadow: 1px 1px  #333;
+  border: none; 
+  margin-top: auto;
+  transition: background-color 0.3s ease; 
+}
+
+.btn-add-to-cart:hover, .btn-add-to-cart:focus {
+  background-color: #2f5a23; 
+  color: #ffffff; 
+}
+
+
+
+
+.new-product-heading,
+.rounded-img,
+.text-container {
+  margin-bottom: 1rem; 
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .new-product-heading {
+    margin-bottom: 0.5rem; 
+  }
+
+  .rounded-img {
+    margin-bottom: 0.5rem; 
+    border-radius: 10px; 
+  }
+
+  .text-container {
+    margin-top: 0.5rem;
+    border-radius: 15px;
+  }
+}
+
+/* guest check out*/
+.checkout-container {
+  max-width: 600px; 
+  margin: auto; 
+  padding: 2rem;
+  background: #f7f7f7; 
+  border-radius: 8px; 
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+}
+
+/* Style for the form labels */
+.form-label {
+  font-weight: bold; 
+  color: #333; 
+  margin-bottom: 0.5rem; 
+}
+
+/* Style for the form inputs */
+.form-control {
+  border-radius: 4px; 
+  border: 1px solid #ccc; 
+  padding: 0.75rem; 
+  margin-bottom: 1rem; 
+}
+
+/* Style for the submit button */
+.btn-primary {
+  background-color: #4CAF50; 
+  border-color: #4CAF50; 
+  padding: 0.75rem 1.5rem; 
+  font-size: 1rem; 
+  border-radius: 4px; 
+}
+
+.btn-primary:hover {
+  background-color: #449d44;
+  border-color: #398439; 
+}
+
+
+form {
+  margin-top: 2rem; 
+}
+
+
+/* Cart container */
+.cart-container {
+  max-width: 600px;
+  margin: auto;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart item list */
+.cart-items {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+/* Checkout info */
+.checkout-info strong {
+  font-weight: 600;
+}
+
+/* Buttons */
+.cart-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+
+.button-spacing {
+  margin-right: 10px;
+}
+
+.btn-primary, .btn-outline-primary {
+  background-color: #5a835c; 
+  border-color: #5a835c;
+  color: white; 
+}
+
+.btn-primary:hover, .btn-outline-primary:hover {
+  background-color: #426244; 
+  border-color: #426244; 
+}
+
+
+.checkout-buttons .btn {
+  margin-right: 10px; 
+}
+
+.checkout-buttons .btn:last-child {
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+
